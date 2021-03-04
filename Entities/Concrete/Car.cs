@@ -8,12 +8,12 @@ namespace Entities.Concrete
     public class Car:IEntity
     {
         //Özellik olarak : Id, BrandId, ColorId, ModelYear, DailyPrice, Description alanlarını ekleyiniz.
-        public int CarId { get; set; }
+        public int Id { get; set; }
         public int BrandId { get; set; }
         public int ColorId { get; set; }
-        public long ModelYear { get; set; }
+        public string ModelYear { get; set; }
         public decimal DailyPrice { get; set; }
-        public string Description { get; set; }
+        public string Descriptions { get; set; }
 
     }
 }
